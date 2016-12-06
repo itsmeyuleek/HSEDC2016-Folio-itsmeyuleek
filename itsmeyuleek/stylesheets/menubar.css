@@ -1,0 +1,21 @@
+.menubar {
+  width: 100%;
+}
+
+.menubar {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 53px;
+  padding: 3px;
+}
+
+.logo {
+  display: block;
+  width: 320px;
+  height: 25px;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
