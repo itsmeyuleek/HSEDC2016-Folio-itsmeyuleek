@@ -32,7 +32,7 @@ body.landing .menubar div {
 }
 
 .mainSection.right {
-  background-color: #999999;
+  /*background-color: #999999;*/
 }
 
 .mainSection h2 {
@@ -69,7 +69,7 @@ body.landing .menubar div {
 
 .mainSection.right section {
   right: 58px;
-  margin-top: -168px;
+  margin-top: -129px;
   color: white;
   top: 301px;
   width: 582px;
@@ -130,7 +130,7 @@ body.landing .menubar div {
   bottom: 0;
   right: 0;
   width: 100%;
-  padding-bottom: 273px;
+  padding-bottom: 116px;
 }
 
 .mainSection.center footer p {
@@ -176,7 +176,7 @@ body.landing .menubar div {
 }
 
 #mockup5 {
-  top: 225px;
+  top: 303px;
   right: 40px;
   width: 760px;
   height: 403px;
