@@ -1,9 +1,3 @@
-/*body.landingWrapper.bg {
-  background-image: url(../images/mockups/1680.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-}*/
-
 body.landing * {
   transition: all .3s ease;
 }
@@ -101,21 +95,6 @@ body.landing .menubar div {
   color: white;
 }
 
-/*.mainSection section figure {
-  width: 210px;
-  height: 20px;
-  margin-top: 100px;
-  background-image: url(../images/landing/pattern.svg);
-}*/
-
-/*.mainSection.left section figure {
-  margin-left: -60px;
-}
-
-.mainSection.right section figure {
-  margin-left: 430px;
-}*/
-
 .mainSection.center section nav {
   margin-top: 70px;
   margin-left: 560px;
@@ -203,108 +182,156 @@ margin-top: 58px;
 }
 
 @media screen and (max-width: 1180px) {
-body.landing.bg {
-background-image: url(../images/1180 First Breakpoint.png);
-}
 
-.landingWrapper {
-width: 100%;
-}
-.mainSection {
-width: 1180px;
-height: 568px;
-}
-.mainSection h2 {
-font-size: 26px;
-line-height: 32px;
-}
+  .landingWrapper {
+    width: 100%;
+  }
 
-.mainSection p {
-font-size: 21px;
-line-height: 35px;
-}
+  body.landing .menubar div {
+    height: 40px;
+  }
 
-.mainSection.center h2 {
-font-size: 28px;
-line-height: 37px;
-}
+  body.landing .menubar a {
+    height: 17px;
+    margin-top: -8px;
+  }
 
-.mainSection.center p {
-margin-top: 21px;
-}
+  .mainSection {
+    width: 1180px;
+    height: 568px;
+  }
 
-.mainSection section {
-top: 191px;
-margin-left: -162px;
-width: 460px;
-}
-.mainSection.left section {
-left: 190px;
-}
+  .mainSection h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
 
-.mainSection.right section {
-right: 190px;
-}
+  .mainSection p {
+    font-size: 16px;
+    line-height: 27px;
+  }
 
-.mainSection.center section {
-top: 132px;
-}
+  .mainSection.center h2 {
+    font-size: 28px;
+    line-height: 37px;
+  }
 
-.mainSection section figure {
-width: 147px;
-height: 14px;
-margin-top: 100px;
-}
+  .mainSection.center p {
+    margin-top: 21px;
+  }
 
-.mainSection.left section figure {
-margin-left: -40px;
-}
+  .mainSection section {
+    top: 191px;
+    margin-left: -162px;
+    width: 460px;
+  }
+  .mainSection.left section {
+    left: 353px;
+    margin-top: -44px;
+  }
 
-.mainSection.right section figure {
-margin-left: 303px;
-}
+  .mainSection.left h2 {
+    font-size: 30px;
+  }
 
-.mainSection.center section nav {
-margin-top: 50px;
-}
+  .mainSection.right section {
+    margin-top: -162px;
+    right: -48px;
+  }
 
-.mainSection.center section nav a {
-margin: 0 6px;
-}
+  .mainSection.right h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .mainSection.right p {
+    margin-top: 17px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 
-#mockup1 {
-top: 233px;
-right: 32px;
-width: 529px;
-height: 336px;
-}
+  .mainSection.center section {
+    top: 132px;
+  }
 
-#mockup2 {
-top: 193px;
-left: 160px;
-width: 140px;
-height: 317px;
-}
+  .mainSection section figure {
+    width: 22px;
+    height: 3px;
+    margin-top: 41px;
+  }
 
-#mockup3 {
-top: 193px;
-left: 333px;
-width: 140px;
-height: 395px;
-}
+  .mainSection.left section figure {
+    margin-left: 0px;
+  }
 
-#mockup4 {
-top: 193px;
-left: 506px;
-width: 140px;
-height: 474px;
-}
+  .mainSection.right section figure {
+    margin-top: 43px;
+    margin-left: -1px;
+  }
 
-#mockup5 {
-top: 72px;
-right: -444px;
-width: 960px;
-height: 555px;
-}
+  .mainSection.center h2 {
+    font-size: 30px;
+    line-height: 39px;
+    margin-top: 6px;
+    margin-left: 325px;
+  }
 
+  .mainSection.center p {
+    margin-top: 17px;
+    margin-left: 325px;
+  }
+
+  .mainSection.center section nav {
+    margin-top: 39px;
+  }
+
+  .mainSection.center section nav a {
+    margin: -1px 84px;
+    width: 214px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .mainSection.center footer p {
+    font-size: 13px;
+    margin-left: 0px;
+  }
+
+  .mainSection.center footer {
+    bottom: -96px;
+  }
+
+  #mockup1 {
+    top: 166px;
+    right: 190px;
+    width: 378px;
+    height: 856px;
+  }
+
+  #mockup2 {
+    top: 138px;
+    left: 192px;
+    width: 100px;
+    height: 226px;
+  }
+
+  #mockup3 {
+    top: 138px;
+    left: 316px;
+    width: 100px;
+    height: 282px;
+  }
+
+  #mockup4 {
+    top: 138px;
+    left: 438px;
+    width: 100px;
+    height: 339px;
+  }
+
+  #mockup5 {
+    top: 242px;
+    right: 105px;
+    width: 545px;
+    height: 289px;
+  }
 }
