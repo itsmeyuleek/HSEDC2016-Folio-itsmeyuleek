@@ -11,6 +11,7 @@ body.landing * {
 body.landing .menubar div {
   max-width: 1680px;
   margin: 0 auto;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
 }
 
 .landingWrapper {
@@ -21,7 +22,6 @@ body.landing .menubar div {
   overflow: hidden;
   width: 1440px;
   margin: 0 auto;
-  /*box-shadow: 0 0 10px 0 rgba(0,0,0,.1);*/
 }
 
 .mainSection {
@@ -32,7 +32,7 @@ body.landing .menubar div {
 }
 
 .mainSection.right {
-  /*background-color: #999999;*/
+  background-color: #879696;
 }
 
 .mainSection h2 {
@@ -83,7 +83,7 @@ body.landing .menubar div {
 
 .mainSection.center {
   text-align: center;
-  /*background-color: #999999;*/
+  background-color: #879696;
 }
 
 .mainSection.center h2 {
@@ -118,6 +118,7 @@ body.landing .menubar div {
 
 .mainSection.center section nav {
   margin-top: 70px;
+  margin-left: 560px;
   font-size: 0;
 }
 
@@ -143,35 +144,46 @@ body.landing .menubar div {
   background-size: cover;
 }
 
+.line {
+height: 4px;
+width: 30px;
+background-color: #5fe5c2;
+margin-top: 58px;
+}
+
 #mockup1 {
-  top: 174px;
+  top: 233px;
   right: 162px;
   width: 529px;
-  height: 566px;
+  height: 100%;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
   background-image: url(../images/about.png);
 }
 
 #mockup2 {
-  top: 134px;
+  top: 173px;
   left: 159px;
   width: 139px;
   height: 317px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   background-image: url(../images/about.png);
 }
 
 #mockup3 {
-  top: 134px;
+  top: 173px;
   left: 333px;
   width: 140px;
   height: 395px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   background-image: url(../images/works.png);
 }
 
 #mockup4 {
-  top: 134px;
+  top: 173px;
   left: 506px;
   width: 140px;
   height: 475px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   background-image: url(../images/work.png);
 }
 
@@ -181,4 +193,118 @@ body.landing .menubar div {
   width: 760px;
   height: 403px;
   background-image: url(../images/screens.png);
+}
+
+@media screen and (max-width: 1680px) {
+  .landingWrapper {
+    width: 100%;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  }
+}
+
+@media screen and (max-width: 1180px) {
+body.landing.bg {
+background-image: url(../images/1180 First Breakpoint.png);
+}
+
+.landingWrapper {
+width: 100%;
+}
+.mainSection {
+width: 1180px;
+height: 568px;
+}
+.mainSection h2 {
+font-size: 26px;
+line-height: 32px;
+}
+
+.mainSection p {
+font-size: 21px;
+line-height: 35px;
+}
+
+.mainSection.center h2 {
+font-size: 28px;
+line-height: 37px;
+}
+
+.mainSection.center p {
+margin-top: 21px;
+}
+
+.mainSection section {
+top: 191px;
+margin-left: -162px;
+width: 460px;
+}
+.mainSection.left section {
+left: 190px;
+}
+
+.mainSection.right section {
+right: 190px;
+}
+
+.mainSection.center section {
+top: 132px;
+}
+
+.mainSection section figure {
+width: 147px;
+height: 14px;
+margin-top: 100px;
+}
+
+.mainSection.left section figure {
+margin-left: -40px;
+}
+
+.mainSection.right section figure {
+margin-left: 303px;
+}
+
+.mainSection.center section nav {
+margin-top: 50px;
+}
+
+.mainSection.center section nav a {
+margin: 0 6px;
+}
+
+#mockup1 {
+top: 233px;
+right: 32px;
+width: 529px;
+height: 336px;
+}
+
+#mockup2 {
+top: 193px;
+left: 160px;
+width: 140px;
+height: 317px;
+}
+
+#mockup3 {
+top: 193px;
+left: 333px;
+width: 140px;
+height: 395px;
+}
+
+#mockup4 {
+top: 193px;
+left: 506px;
+width: 140px;
+height: 474px;
+}
+
+#mockup5 {
+top: 72px;
+right: -444px;
+width: 960px;
+height: 555px;
+}
+
 }
