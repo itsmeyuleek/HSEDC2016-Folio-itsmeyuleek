@@ -335,3 +335,69 @@ margin-top: 58px;
     height: 289px;
   }
 }
+
+@media screen and (max-width: 840px) {
+  .mainSection {
+    width: 840px;
+    height: 1024px;
+  }
+
+  .mainSection.left section {
+    left: 150px;
+  }
+
+  .mainSection.right section {
+    right: 12px;
+  }
+
+  .mainSection.center section {
+    top: 187px;
+  }
+
+  .mainSection.center section nav {
+    margin-top: 92px;
+  }
+
+  #mockup1 {
+    top: 482px;
+    right: 150px;
+    width: 540px;
+    height: 1223px;
+  }
+
+  #mockup2 {
+    top: 456px;
+    left: 175px;
+    width: 140px;
+    height: 317px;
+  }
+
+  #mockup3 {
+    top: 456px;
+    left: 348px;
+    width: 140px;
+    height: 395px;
+  }
+
+  #mockup4 {
+    top: 456px;
+    left: 521px;
+    width: 140px;
+    height: 474px;
+  }
+
+  #mockup5 {
+    top: 505px;
+    right: -80px;
+    width: 761px;
+    height: 404px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body.mockup {
+    background-image: url(../images/mockups/768.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+}
