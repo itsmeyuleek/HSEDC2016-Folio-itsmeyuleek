@@ -1,4 +1,5 @@
 body.landing * {
+  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
@@ -10,8 +11,15 @@ body.landing .menubar div {
 
 .landingWrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
   width: 1440px;
@@ -343,19 +351,24 @@ margin-top: 58px;
   }
 
   .mainSection.left section {
-    left: 150px;
+    left: 312px;
   }
 
   .mainSection.right section {
-    right: 12px;
+    right: -90px;
   }
 
   .mainSection.center section {
-    top: 187px;
+    top: 182px;
   }
 
   .mainSection.center section nav {
-    margin-top: 92px;
+    margin-top: 90px;
+    margin-left: 391px;
+  }
+
+  .mainSection.center section nav a {
+    height: 36px;
   }
 
   #mockup1 {
@@ -395,9 +408,90 @@ margin-top: 58px;
 }
 
 @media screen and (max-width: 768px) {
-  body.mockup {
-    background-image: url(../images/mockups/768.png);
-    background-position: top center;
-    background-repeat: no-repeat;
+  .mainSection {
+    width: 768px;
+    height: 1024px;
+  }
+
+  .mainSection.left section {
+    left: 268px;
+  }
+
+  .mainSection h2 {
+    line-height: 36px;
+  }
+
+  .mainSection p {
+    line-height: 25px;
+  }
+
+
+  .mainSection.right section {
+    right: -118px;
+  }
+
+  .mainSection.center section {
+    top: 180px;
+    width: 902px;
+  }
+
+  .mainSection.center h2 {
+    margin-left: 174px;
+  }
+
+  .mainSection.center p {
+    margin-top: 20px;
+    margin-left: 177px;
+  }
+
+  .mainSection.center section nav {
+    margin-top: 92px;
+  }
+
+  .mainSection.center section nav a {
+    margin: 0px 38px;
+    width: 214px;
+    height: 36px;
+    font-size: 13px;
+  }
+
+  .mainSection.center footer {
+    bottom: -92px;
+    left: -9px;
+  }
+
+  #mockup1 {
+    top: 482px;
+    left: 105px;
+    width: 540px;
+    height: 1223px;
+  }
+
+  #mockup2 {
+    top: 456px;
+    left: 131px;
+    width: 140px;
+    height: 317px;
+  }
+
+  #mockup3 {
+    top: 456px;
+        left: 304px;
+    width: 140px;
+    height: 395px;
+  }
+
+  #mockup4 {
+    top: 456px;
+    left: 478px;
+    width: 140px;
+    height: 474px;
+  }
+
+  #mockup5 {
+    top: 505px;
+    right: -106px;
+    width: 761px;
+    height: 404px;
   }
 }
