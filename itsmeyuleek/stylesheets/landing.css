@@ -1,0 +1,493 @@
+body.landing * {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+body.landing .menubar div {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.landingWrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  width: 1440px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.mainSection {
+  position: relative;
+  width: 1440px;
+  height: 820px;
+  overflow: hidden;
+}
+
+.mainSection.right {
+  background-color: #879696;
+}
+
+.mainSection h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.mainSection p {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.mainSection section {
+  position: absolute;
+  top: 206px;
+  width: 580px;
+}
+
+.mainSection.left section {
+  left: 160px;
+  line-height: 46px;
+  margin-top: -9px;
+}
+
+.mainSection.left h2 {
+  margin-top: -5px;
+}
+
+.mainSection.left p {
+  margin-top: 24px;
+}
+
+.mainSection.right section {
+  right: 58px;
+  margin-top: -129px;
+  color: white;
+  top: 301px;
+  width: 582px;
+}
+
+.mainSection.right p {
+  margin-top: 25px;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.mainSection.center {
+  text-align: center;
+  background-color: #879696;
+}
+
+.mainSection.center h2 {
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.mainSection.center p {
+  margin-top: 27px;
+}
+
+.mainSection.center section {
+  top: 132px;
+  width: 100%;
+  color: white;
+}
+
+.mainSection.center section nav {
+  margin: 70px 0 0 560px;
+  font-size: 0;
+}
+
+.mainSection.center section nav a {
+  margin: 0 10px;
+}
+
+.mainSection.center footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding-bottom: 116px;
+}
+
+.mainSection.center footer p {
+  font-size: 16px;
+  color: white;
+}
+
+.mockup {
+  position: absolute;
+  background-size: cover;
+}
+
+.line {
+height: 4px;
+width: 30px;
+background-color: #5fe5c2;
+margin-top: 58px;
+}
+
+#mockup1 {
+  top: 233px;
+  right: 162px;
+  width: 529px;
+  height: 100%;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/about.png);
+}
+
+#mockup2 {
+  top: 173px;
+  left: 159px;
+  width: 139px;
+  height: 317px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/about.png);
+}
+
+#mockup3 {
+  top: 173px;
+  left: 333px;
+  width: 140px;
+  height: 395px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/works.png);
+}
+
+#mockup4 {
+  top: 173px;
+  left: 506px;
+  width: 140px;
+  height: 475px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/work.png);
+}
+
+#mockup5 {
+  top: 303px;
+  right: 40px;
+  width: 760px;
+  height: 403px;
+  background-image: url(../images/screens.png);
+}
+
+@media screen and (min-width: 1440px) {
+  .landingWrapper {
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .landingWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1179px) {
+
+  body.landing .menubar div {
+    height: 40px;
+  }
+
+  body.landing .menubar a {
+    height: 17px;
+    margin-top: -8px;
+  }
+
+  .mainSection {
+    width: 1180px;
+    height: 568px;
+  }
+
+  .mainSection h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .mainSection p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .mainSection.center h2 {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
+  .mainSection.center p {
+    margin-top: 21px;
+  }
+
+  .mainSection section {
+    top: 191px;
+    margin-left: -162px;
+    width: 460px;
+  }
+  .mainSection.left section {
+    left: 353px;
+    margin-top: -44px;
+  }
+
+  .mainSection.left h2 {
+    font-size: 30px;
+  }
+
+  .mainSection.right section {
+    margin-top: -162px;
+    right: -48px;
+  }
+
+  .mainSection.right h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .mainSection.right p {
+    margin-top: 17px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .mainSection.center section {
+    top: 132px;
+  }
+
+  .mainSection section figure {
+    width: 22px;
+    height: 3px;
+    margin-top: 41px;
+  }
+
+  .mainSection.left section figure {
+    margin-left: 0px;
+  }
+
+  .mainSection.right section figure {
+    margin: 43px 0 0 -1px;
+  }
+
+  .mainSection.center h2 {
+    font-size: 30px;
+    line-height: 39px;
+    margin: 6px 0 0 325px;
+  }
+
+  .mainSection.center p {
+    margin: 17px 0 0 325px;
+  }
+
+  .mainSection.center section nav {
+    margin-top: 39px;
+  }
+
+  .mainSection.center section nav a {
+    margin: -1px 84px;
+    width: 214px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .mainSection.center footer p {
+    font-size: 13px;
+    margin-left: 0px;
+  }
+
+  .mainSection.center footer {
+    bottom: -96px;
+  }
+
+  #mockup1 {
+    top: 166px;
+    right: 190px;
+    width: 378px;
+    height: 856px;
+  }
+
+  #mockup2 {
+    top: 138px;
+    left: 192px;
+    width: 100px;
+    height: 226px;
+  }
+
+  #mockup3 {
+    top: 138px;
+    left: 316px;
+    width: 100px;
+    height: 282px;
+  }
+
+  #mockup4 {
+    top: 138px;
+    left: 438px;
+    width: 100px;
+    height: 339px;
+  }
+
+  #mockup5 {
+    top: 242px;
+    right: 105px;
+    width: 545px;
+    height: 289px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .mainSection {
+    width: 840px;
+    height: 1024px;
+  }
+
+  .mainSection.left section {
+    left: 312px;
+  }
+
+  .mainSection.right section {
+    right: -90px;
+  }
+
+  .mainSection.center section {
+    top: 182px;
+  }
+
+  .mainSection.center section nav {
+    margin: 90px 0 0 391px;
+  }
+
+  .mainSection.center section nav a {
+    height: 36px;
+  }
+
+  #mockup1 {
+    top: 482px;
+    right: 150px;
+    width: 540px;
+    height: 1223px;
+  }
+
+  #mockup2 {
+    top: 456px;
+    left: 175px;
+    width: 140px;
+    height: 317px;
+  }
+
+  #mockup3 {
+    top: 456px;
+    left: 348px;
+    width: 140px;
+    height: 395px;
+  }
+
+  #mockup4 {
+    top: 456px;
+    left: 521px;
+    width: 140px;
+    height: 474px;
+  }
+
+  #mockup5 {
+    top: 505px;
+    right: -80px;
+    width: 761px;
+    height: 404px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainSection {
+    width: 768px;
+    height: 1024px;
+  }
+
+  .mainSection.left section {
+    left: 268px;
+  }
+
+  .mainSection h2 {
+    line-height: 36px;
+  }
+
+  .mainSection p {
+    line-height: 25px;
+  }
+
+
+  .mainSection.right section {
+    right: -118px;
+  }
+
+  .mainSection.center section {
+    top: 180px;
+    width: 902px;
+  }
+
+  .mainSection.center h2 {
+    margin-left: 174px;
+  }
+
+  .mainSection.center p {
+    margin: 20px 0 0 177px;
+  }
+
+  .mainSection.center section nav {
+    margin-top: 92px;
+  }
+
+  .mainSection.center section nav a {
+    margin: 0px 38px;
+    width: 214px;
+    height: 36px;
+    font-size: 13px;
+  }
+
+  .mainSection.center footer {
+    bottom: -92px;
+    left: -9px;
+  }
+
+  #mockup1 {
+    top: 482px;
+    left: 105px;
+    width: 540px;
+    height: 1223px;
+  }
+
+  #mockup2 {
+    top: 456px;
+    left: 131px;
+    width: 140px;
+    height: 317px;
+  }
+
+  #mockup3 {
+    top: 456px;
+        left: 304px;
+    width: 140px;
+    height: 395px;
+  }
+
+  #mockup4 {
+    top: 456px;
+    left: 478px;
+    width: 140px;
+    height: 474px;
+  }
+
+  #mockup5 {
+    top: 505px;
+    right: -106px;
+    width: 761px;
+    height: 404px;
+  }
+}
