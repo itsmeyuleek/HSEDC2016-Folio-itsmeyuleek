@@ -24,6 +24,7 @@ body.landing .menubar div {
   overflow: hidden;
   width: 1440px;
   margin: 0 auto;
+  background-color: white;
 }
 
 .mainSection {
