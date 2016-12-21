@@ -447,7 +447,7 @@ margin-top: 58px;
   .mainSection.center section nav a {
     margin: 0px 38px;
     width: 214px;
-    height: 36px;
+    height: 47px;
     font-size: 13px;
   }
 
@@ -489,5 +489,23 @@ margin-top: 58px;
     right: -106px;
     width: 761px;
     height: 404px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 {
+    background-image: url(../images/retina/about-artboard@2x.png);
+  }
+  #mockup2 {
+    background-image: url(../images/retina/about@2x.png);
+  }
+  #mockup3 {
+    background-image: url(../images/retina/works@2x.png);
+  }
+  #mockup4 {
+    background-image: url(../images/retina/work@2x.png);
+  }
+  #mockup5 {
+    background-image: url(../images/retina/screens@2x.png);
   }
 }
